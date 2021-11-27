@@ -1,0 +1,15 @@
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+    color: whitesmoke;
+    .list {
+        display: flex;
+        img {
+            width: 5em;
+            height: 5em;
+            cursor: pointer;
+        }
+    }
+}

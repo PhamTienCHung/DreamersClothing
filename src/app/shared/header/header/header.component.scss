@@ -1,0 +1,39 @@
+.container {
+    position: relative;
+    .nav-bar {
+        // width: 100%;
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        position: absolute;
+        top: 0;
+        background-color: black;
+        opacity: 0.5;
+        padding: 1em 0;
+        padding-left: 5em;
+        max-width: 100vw;
+        width: -webkit-fill-available;
+        ul {
+            margin-left: 5em;
+            list-style-type: none;
+            margin: 0;
+            display: flex;
+            gap: 5em;
+            // justify-content: space-around;
+            padding: 0;
+            li{
+                cursor: pointer;
+                font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+                font-size: large;
+                font-weight: 500;
+                color: whitesmoke;
+            }
+        }
+    }
+    .cover-image-holder{
+        width: 100%;
+        .cover-image {
+            max-width: 100%;
+        }
+    }
+}
